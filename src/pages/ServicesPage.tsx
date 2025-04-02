@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
+import ScrollToTop from '../components/ScrollToTop';
 
 const ServicesPage = () => {
   return (
@@ -20,7 +21,7 @@ const ServicesPage = () => {
         
         <Services />
         
-        <section className="py-16 px-4 bg-white">
+        <section className="py-16 px-4 bg-white" id="consultation">
           <div className="container mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Why Choose Our Services?</h2>
@@ -46,12 +47,12 @@ const ServicesPage = () => {
               </div>
               
               <div className="bg-secondary p-8 rounded-lg">
-                <h3 className="text-xl font-bold mb-4">Schedule a Consultation</h3>
-                <p className="text-gray-700 mb-6">
+                <h3 className="text-xl font-bold mb-4 text-white">Schedule a Consultation</h3>
+                <p className="text-white/90 mb-6">
                   Ready to take control of your financial future? Contact us today to schedule a complimentary consultation with one of our expert advisors.
                 </p>
                 
-                <form className="space-y-4">
+                <form className="space-y-4" id="consultation-form">
                   <div>
                     <input type="text" placeholder="Full Name" className="w-full px-4 py-2 border border-gray-300 rounded" required />
                   </div>
@@ -64,13 +65,15 @@ const ServicesPage = () => {
                   <div>
                     <select className="w-full px-4 py-2 border border-gray-300 rounded" required>
                       <option value="">Select Service</option>
-                      <option value="estate">Estate Planning</option>
-                      <option value="insurance">Life & Health Insurance</option>
-                      <option value="tax">Tax Strategies</option>
-                      <option value="market">Down Market Protection</option>
+                      <option value="estate-planning">Estate Planning</option>
+                      <option value="life-insurance">Life & Health Insurance</option>
+                      <option value="tax-strategies">Tax Strategies</option>
+                      <option value="market-protection">Down Market Protection</option>
                       <option value="retirement">Retirement Planning</option>
                       <option value="rollovers">IRA & 401K Rollovers</option>
                       <option value="income">Guaranteed Lifetime Income</option>
+                      <option value="college">College Saving Plans</option>
+                      <option value="business">Business Opportunity</option>
                     </select>
                   </div>
                   <button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white py-3 rounded">
@@ -82,6 +85,7 @@ const ServicesPage = () => {
           </div>
         </section>
       </main>
+      <ScrollToTop />
       <Footer />
     </div>
   );

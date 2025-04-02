@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ScrollToTop from '../components/ScrollToTop';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 const Contact = () => {
@@ -36,7 +37,7 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Email</h3>
                 <p className="text-gray-700 mb-2">Send us an email:</p>
-                <a href="mailto:info@vrbestfinancials.com" className="text-primary font-medium">info@vrbestfinancials.com</a>
+                <a href="mailto:fin@vrbest.group" className="text-primary font-medium">fin@vrbest.group</a>
               </div>
               
               <div className="text-center p-6 border border-gray-200 rounded-lg">
@@ -99,20 +100,21 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold">Office Address</h3>
                     <p className="text-gray-700">
-                      123 Financial District<br />
-                      New York, NY 10004<br />
+                      PO BOX 3067<br />
+                      Camp Hill, PA, 17011<br />
                       United States
                     </p>
                   </div>
                 </div>
                 <p className="text-gray-700">
-                  Located in the heart of the financial district, our office is easily accessible by public transportation.
+                  Contact us to schedule a meeting at our office or arrange a virtual consultation.
                 </p>
               </div>
             </div>
           </div>
         </section>
       </main>
+      <ScrollToTop />
       <Footer />
     </div>
   );

@@ -59,9 +59,9 @@ const Services = () => {
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 max-w-4xl mx-auto">
           {serviceItems.map((service) => (
-            <div key={service.id} className="flex items-center bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4 text-white">
+            <div key={service.id} className="flex items-center bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4 text-white hover:bg-white hover:bg-opacity-20 transition-all duration-300">
               <div className="bg-primary rounded-full p-2 mr-4 text-white flex-shrink-0">
                 <service.icon size={24} className="text-white" />
               </div>
