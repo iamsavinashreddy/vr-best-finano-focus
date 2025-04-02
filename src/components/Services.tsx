@@ -1,88 +1,72 @@
 
 import React from 'react';
-import { Shield, Heart, Calculator, TrendingDown, LineChart, PiggyBank, Coins, GraduationCap, Handshake } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
+import { FileCheck } from 'lucide-react';
 
 const serviceItems = [
   {
     id: 1,
-    title: 'Will & Trust, Estate Planning',
-    description: 'Secure your legacy and protect your loved ones with comprehensive estate planning services.',
-    icon: Shield,
+    title: 'WILL & TRUST, ESTATE PLANNING',
+    icon: FileCheck,
   },
   {
     id: 2,
-    title: 'Life & Health Insurance',
-    description: 'Get the coverage you need to protect yourself and your family against life\'s uncertainties.',
-    icon: Heart,
+    title: 'LIFE & HEALTH INSURANCE',
+    icon: FileCheck,
   },
   {
     id: 3,
-    title: 'Tax Saving Strategies',
-    description: 'Minimize your tax burden with effective strategies designed for your specific financial situation.',
-    icon: Calculator,
+    title: 'TAX SAVING STRATEGIES',
+    icon: FileCheck,
   },
   {
     id: 4,
-    title: 'Down Market Protection',
-    description: 'Safeguard your investments during market downturns with our protection strategies.',
-    icon: TrendingDown,
+    title: 'DOWN MARKET PROTECTION',
+    icon: FileCheck,
   },
   {
     id: 5,
-    title: 'Retirement Planning',
-    description: 'Plan for a comfortable retirement with personalized strategies to meet your long-term goals.',
-    icon: LineChart,
+    title: 'RETIREMENT PLANNING',
+    icon: FileCheck,
   },
   {
     id: 6,
-    title: 'IRA & 401K Rollovers',
-    description: 'Optimize your retirement accounts with expert guidance on rollover options and strategies.',
-    icon: PiggyBank,
+    title: 'IRA & 401K ROLLOVERS',
+    icon: FileCheck,
   },
   {
     id: 7,
-    title: 'Guaranteed Lifetime Income',
-    description: 'Ensure financial stability throughout your retirement with dependable income solutions.',
-    icon: Coins,
+    title: 'GUARANTEED LIFETIME INCOME',
+    icon: FileCheck,
   },
   {
     id: 8,
-    title: 'College Saving Plans',
-    description: 'Offers the guidance and tools needed to build a secure financial foundation for academic success',
-    icon: GraduationCap,
+    title: 'COLLEGE SAVING PLANS',
+    icon: FileCheck,
   },
   {
     id: 9,
-    title: 'Business Opportunity',
-    description: 'Embrace growth and unlock your business potential with our dedicated tools and support',
-    icon: Handshake,
+    title: 'BUSINESS OPPORTUNITY',
+    icon: FileCheck,
   }
 ];
 
 const Services = () => {
   return (
-    <section className="py-16 px-4 bg-secondary" id="services">
+    <section className="py-16 px-4 bg-gradient-to-br from-primary to-secondary" id="services">
       <div className="container mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">Our Financial Services</h2>
-          <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive financial solutions tailored to your unique needs and goals.
-          </p>
+        <div className="text-center mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Services</h2>
+          <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
           {serviceItems.map((service) => (
-            <Card key={service.id} className="border border-gray-200 hover:shadow-lg transition-shadow duration-300 h-full">
-              <CardContent className="p-6 flex flex-col items-center text-center h-full">
-                <div className="bg-primary/10 p-4 rounded-full mb-6">
-                  <service.icon size={32} className="text-primary" />
-                </div>
-                <h3 className="text-xl font-bold mb-4 text-accent">{service.title}</h3>
-                <p className="text-gray-600">{service.description}</p>
-              </CardContent>
-            </Card>
+            <div key={service.id} className="flex items-center bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4 text-white">
+              <div className="bg-primary rounded-full p-2 mr-4 text-white flex-shrink-0">
+                <service.icon size={24} className="text-white" />
+              </div>
+              <h3 className="font-bold">{service.title}</h3>
+            </div>
           ))}
         </div>
       </div>

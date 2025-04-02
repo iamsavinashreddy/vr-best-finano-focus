@@ -26,12 +26,12 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#1a76d1', // bright blue
+					DEFAULT: '#1546AD', // deep blue from image
 					foreground: '#ffffff',
 				},
 				secondary: {
-					DEFAULT: '#f8f9fa', // light gray
-					foreground: '#333333',
+					DEFAULT: '#38B6E3', // light blue from image
+					foreground: '#ffffff',
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',

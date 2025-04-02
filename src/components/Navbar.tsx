@@ -18,6 +18,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
+              <div className="bg-primary h-12 w-12 rounded-md flex items-center justify-center mr-3">
+                <span className="text-white font-bold">VR</span>
+              </div>
               <span className="text-2xl font-bold text-primary">VR Best Financials</span>
             </Link>
           </div>
@@ -26,7 +29,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <a href="tel:3073872378" className="flex flex-col items-center group">
               <Button className="bg-primary hover:bg-primary/90 text-white rounded-md mb-1">
-                Call Today
+                CALL TODAY
               </Button>
               <div className="flex items-center text-sm text-gray-700">
                 <Phone size={16} className="mr-1" />
@@ -76,7 +79,7 @@ const Navbar = () => {
               <div className="pt-2">
                 <a href="tel:3073872378" className="flex flex-col">
                   <Button className="bg-primary hover:bg-primary/90 text-white rounded-md w-full mb-1">
-                    Call Today
+                    CALL TODAY
                   </Button>
                   <div className="flex items-center justify-center text-sm text-gray-700 mt-1">
                     <Phone size={16} className="mr-1" />
