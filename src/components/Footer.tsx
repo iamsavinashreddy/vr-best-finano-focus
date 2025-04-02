@@ -72,6 +72,16 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p>© {currentYear} VR Best Financials. All Rights Reserved.</p>
+          
+            <p className="mb-4">
+              <a href="https://vrbest.group" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center hover:text-secondary">
+                Managed by VR Best Solutions
+                <ExternalLink size={14} className="ml-1" />
+              </a>
+            </p>
         </div>
       </div>
       
