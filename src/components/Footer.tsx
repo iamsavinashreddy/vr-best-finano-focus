@@ -20,11 +20,11 @@ const Footer = () => {
             </div>
             <div className="flex items-center mb-2">
               <Mail size={18} className="mr-2" />
-              <a href="mailto:info@vrbestfinancials.com" className="hover:text-primary-foreground">info@vrbestfinancials.com</a>
+              <a href="mailto:fin@vrbest.group" className="hover:text-primary-foreground">fin@vrbest.group</a>
             </div>
             <div className="flex items-center">
               <MapPin size={18} className="mr-2" />
-              <p>123 Financial District, New York, NY</p>
+              <p>PO BOX 3067, Camp Hill, PA, 17011</p>
             </div>
           </div>
           
@@ -49,26 +49,7 @@ const Footer = () => {
               <li><Link to="/services#retirement" className="hover:text-primary-foreground">Retirement Planning</Link></li>
             </ul>
           </div>
-          
-          {/* Newsletter */}
-          <div>
-            <h3 className="text-xl font-bold mb-4">Subscribe</h3>
-            <p className="mb-4">Stay updated with our latest news and services</p>
-            <form className="flex flex-col">
-              <input 
-                type="email" 
-                placeholder="Your Email" 
-                className="px-4 py-2 mb-2 text-black rounded"
-                required
-              />
-              <button 
-                type="submit" 
-                className="bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
+
         </div>
         
         {/* Copyright */}
