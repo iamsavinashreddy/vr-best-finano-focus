@@ -21,15 +21,6 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">VR Best Financials</h3>
             <p className="mb-4">Your trusted partner for comprehensive financial planning and wealth management solutions.</p>
-            <p className="mb-4">
-              <a href="https://vrbest.group" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="flex items-center hover:text-secondary">
-                Managed by VR Best Solutions
-                <ExternalLink size={14} className="ml-1" />
-              </a>
-            </p>
           </div>
           
           {/* Quick Links */}
@@ -61,9 +52,8 @@ const Footer = () => {
             <div className="flex items-center">
               <Clock size={18} className="mr-2" />
               <div>
-                <p>Mon-Fri: 9AM - 5PM</p>
-                <p>Sat: By appointment</p>
-                <p>Sun: Closed</p>
+                <p>Mon-Fri: 7AM - 9AM & 5PM - 10PM</p>
+                <p>Sat-Sun: By appointment</p>
               </div>
             </div>
           </div>
@@ -73,7 +63,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p>© {currentYear} VR Best Financials. All Rights Reserved.</p>
           
-            <p className="mb-4">
+            <p className="mb-4 flex justify-center items-center">
               <a href="https://vrbest.group" 
                 target="_blank" 
                 rel="noopener noreferrer" 
