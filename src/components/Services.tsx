@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Shield, Heart, Calculator, TrendingDown, LineChart, PiggyBank, Coins } from 'lucide-react';
+import { Shield, Heart, Calculator, TrendingDown, LineChart, PiggyBank, Coins, GraduationCap, Handshake } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const serviceItems = [
@@ -46,6 +46,18 @@ const serviceItems = [
     description: 'Ensure financial stability throughout your retirement with dependable income solutions.',
     icon: Coins,
   },
+  {
+    id: 8,
+    title: 'College Saving Plans',
+    description: 'Offers the guidance and tools needed to build a secure financial foundation for academic success',
+    icon: GraduationCap,
+  },
+  {
+    id: 9,
+    title: 'Business Opportunity',
+    description: 'Embrace growth and unlock your business potential with our dedicated tools and support',
+    icon: Handshake,
+  }
 ];
 
 const Services = () => {
