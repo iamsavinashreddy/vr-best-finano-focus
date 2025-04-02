@@ -13,7 +13,7 @@ const slides = [
   {
     id: 2,
     image: 'https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/extra-income-1.jpg',
-    title: 'Lifetime Financial Freedom, Guaranteed,
+    title: 'Lifetime Financial Freedom, Guaranteed',
     subtitle: 'GUARANTEED LIFETIME INCOME',
     ctaText: 'Learn More',
   },
