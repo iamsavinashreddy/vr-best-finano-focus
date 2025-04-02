@@ -5,16 +5,16 @@ import { Button } from '@/components/ui/button';
 const slides = [
   {
     id: 1,
-    image: 'https://github.com/iamsavinashreddy/vrbest-group/blob/main/Img/family-1.jpg',
+    image: 'https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/family-1.jpg',
     title: 'Secure Tomorrow, Live Confidently Today',
     subtitle: 'LIFE & HEALTH INSURANCE',
     ctaText: 'Get Started',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1920&h=600',
-    title: 'Maximize Your Investments',
-    subtitle: 'Tailored strategies for optimal growth',
+    image: 'https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/extra-income-1.jpg',
+    title: 'Lifetime Financial Freedom, Guaranteed,
+    subtitle: 'GUARANTEED LIFETIME INCOME',
     ctaText: 'Learn More',
   },
   {
