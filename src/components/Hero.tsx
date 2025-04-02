@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button';
 const slides = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=1920&h=600',
-    title: 'Secure Your Financial Future',
-    subtitle: 'Expert planning for peace of mind',
+    image: 'https://github.com/iamsavinashreddy/vrbest-group/blob/main/Img/family-1.jpg',
+    title: 'Secure Tomorrow, Live Confidently Today',
+    subtitle: 'LIFE & HEALTH INSURANCE',
     ctaText: 'Get Started',
   },
   {
@@ -16,6 +16,13 @@ const slides = [
     title: 'Maximize Your Investments',
     subtitle: 'Tailored strategies for optimal growth',
     ctaText: 'Learn More',
+  },
+  {
+    id: 3,
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1920&h=600',
+    title: 'Expert Financial Guidance',
+    subtitle: 'Personalized advice for your unique needs',
+    ctaText: 'Contact Us',
   },
   {
     id: 3,
