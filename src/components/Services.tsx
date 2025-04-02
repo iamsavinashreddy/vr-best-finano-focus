@@ -1,52 +1,52 @@
 
 import React from 'react';
-import { FileCheck } from 'lucide-react';
+import { Shield, Heart, Calculator, TrendingDown, LineChart, PiggyBank, Coins, GraduationCap, Handshake } from 'lucide-react';
 
 const serviceItems = [
   {
     id: 1,
     title: 'WILL & TRUST, ESTATE PLANNING',
-    icon: FileCheck,
+    icon: Shield,
   },
   {
     id: 2,
     title: 'LIFE & HEALTH INSURANCE',
-    icon: FileCheck,
+    icon: Heart,
   },
   {
     id: 3,
     title: 'TAX SAVING STRATEGIES',
-    icon: FileCheck,
+    icon: Calculator,
   },
   {
     id: 4,
     title: 'DOWN MARKET PROTECTION',
-    icon: FileCheck,
+    icon: TrendingDown,
   },
   {
     id: 5,
     title: 'RETIREMENT PLANNING',
-    icon: FileCheck,
+    icon: LineChart,
   },
   {
     id: 6,
     title: 'IRA & 401K ROLLOVERS',
-    icon: FileCheck,
+    icon: PiggyBank,
   },
   {
     id: 7,
     title: 'GUARANTEED LIFETIME INCOME',
-    icon: FileCheck,
+    icon: Coins,
   },
   {
     id: 8,
     title: 'COLLEGE SAVING PLANS',
-    icon: FileCheck,
+    icon: GraduationCap,
   },
   {
     id: 9,
     title: 'BUSINESS OPPORTUNITY',
-    icon: FileCheck,
+    icon: Handshake,
   }
 ];
 
@@ -55,7 +55,7 @@ const Services = () => {
     <section className="py-16 px-4 bg-gradient-to-br from-primary to-secondary" id="services">
       <div className="container mx-auto">
         <div className="text-center mb-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Financial Services</h2>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
         </div>
         
