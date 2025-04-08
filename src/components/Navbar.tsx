@@ -15,15 +15,19 @@ const Navbar = () => {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center">
-              <div className="bg-primary h-12 w-12 rounded-md flex items-center justify-center mr-3">
-                <span className="text-white font-bold">VR</span>
-              </div>
-              <span className="text-2xl font-bold text-primary">VR Best Financials</span>
-            </Link>
-          </div>
+          {/* Logo */}  
+          <Link 
+            to="/" 
+            className="flex items-center gap-2 py-2" 
+            aria-label="VR Best Group Home">
+            <img 
+              src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-fin-logo-1.png"
+              alt="VR Best Solutions - IT Enabled Services" 
+              className="logo-container object-contain"
+              width="180"
+              height="60"
+            />
+          </Link>
           
           {/* Call Button - Desktop */}
           <div className="hidden md:flex items-center">
