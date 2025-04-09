@@ -24,11 +24,11 @@ const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white shadow-md py-2'
-          : 'bg-white/40 backdrop-blur-sm py-4'
+          ? 'bg-white shadow-md py-1'
+          : 'bg-white/40 backdrop-blur-sm py-2'
       }`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-1">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
@@ -67,25 +67,25 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-gray-800 hover:text-blue-500 font-medium"
+              className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
             >
               Home
             </Link>
             <Link
               to="/services"
-              className="text-gray-800 hover:text-blue-500 font-medium"
+              className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
             >
               Services
             </Link>
             <Link
               to="/about"
-              className="text-gray-800 hover:text-blue-500 font-medium"
+              className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
             >
               About
             </Link>
             <Link
               to="/contact"
-              className="text-gray-800 hover:text-blue-500 font-medium"
+              className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
             >
               Contact
             </Link>
@@ -132,28 +132,28 @@ const Navbar = () => {
             <div className="flex flex-col space-y-4 pb-4">
               <Link
                 to="/"
-                className="text-gray-800 hover:text-blue-500"
+                className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
                 onClick={toggleMenu}
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="text-gray-800 hover:text-blue-500"
+                className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
                 onClick={toggleMenu}
               >
                 Services
               </Link>
               <Link
                 to="/about"
-                className="text-gray-800 hover:text-blue-500"
+                className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
                 onClick={toggleMenu}
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="text-gray-800 hover:text-blue-500"
+                className="text-gray-900 font-bold hover:bg-gray-200 hover:rounded-md px-3 py-2 transition"
                 onClick={toggleMenu}
               >
                 Contact
