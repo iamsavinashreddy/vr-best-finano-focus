@@ -24,11 +24,11 @@ const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white shadow-md py-1'
-          : 'bg-white/40 backdrop-blur-sm py-2'
+          ? 'bg-white shadow-md py-1.5'
+          : 'bg-white/40 backdrop-blur-sm py-3'
       }`}
     >
-      <div className="container mx-auto px-1">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
@@ -51,12 +51,12 @@ const Navbar = () => {
               href="tel:3073872378"
               className="flex flex-row items-center group space-x-2"
             >
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-md mb-1">
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm rounded-md mb-1 px-4 py-2">
                 CALL TODAY
               </Button>
               <div className="flex items-center text-sm text-gray-700">
                 <Phone size={16} className="mr-1" />
-                <span>
+                <span className="font-bold">
                   307-3 <span className="font-bold">VR BEST</span>
                 </span>
               </div>
@@ -162,12 +162,12 @@ const Navbar = () => {
               {/* Call Button - Mobile */}
               <div className="pt-2">
                 <a href="tel:3073872378" className="flex flex-col">
-                  <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-md w-full mb-1">
+                  <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm rounded-md w-full mb-1 px-4 py-2">
                     CALL TODAY
                   </Button>
                   <div className="flex items-center justify-center text-sm text-gray-700 mt-1">
                     <Phone size={16} className="mr-1" />
-                    <span>
+                    <span className="font-bold">
                       307-3 <span className="font-bold">VR BEST</span>
                     </span>
                   </div>
