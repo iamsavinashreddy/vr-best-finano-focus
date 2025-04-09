@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4">
+    <nav className="bg-white shadow-md sticky top-0 z-35">
+      <div className="container mx-auto px-1 py-1">
         <div className="flex justify-between items-center">
           {/* Logo */}  
           <Link 
             to="/" 
-            className="flex items-center gap-2 py-2" 
+            className="flex items-center gap-1 py-1" 
             aria-label="VR Best Group Home">
             <img 
               src="https://raw.githubusercontent.com/iamsavinashreddy/vrbest-group/main/Img/vr-best-fin-logo-1.png"
