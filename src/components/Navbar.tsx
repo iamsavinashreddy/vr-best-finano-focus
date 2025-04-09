@@ -45,58 +45,58 @@ const Navbar = () => {
             />
           </Link>
 
-          {/* Call Button - Desktop */}
-          <div className="hidden md:flex items-center">
-            <a
-              href="tel:3073872378"
-              className="flex flex-row items-center group space-x-2"
-            >
-              <Button className="bg-primary hover:bg-primary/90 text-white rounded-md mb-1">
-                CALL TODAY
-              </Button>
-              <div className="flex items-center text-sm text-gray-700">
-                <Phone size={16} className="mr-1" />
-                <span>
-                  307-3 <span className="font-bold">VR BEST</span>
-                </span>
-              </div>
-            </a>
-          </div>
+          {/* Navigation */}
+          <nav className="flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8">
+              <Link
+                to="/"
+                className="text-gray-800 hover:text-yellow-500 font-medium"
+              >
+                Home
+              </Link>
+              <Link
+                to="/services"
+                className="text-gray-800 hover:text-yellow-500 font-medium"
+              >
+                Services
+              </Link>
+              <Link
+                to="/about"
+                className="text-gray-800 hover:text-yellow-500 font-medium"
+              >
+                About
+              </Link>
+              <Link
+                to="/contact"
+                className="text-gray-800 hover:text-yellow-500 font-medium"
+              >
+                Contact
+              </Link>
+            </div>
 
-          {/* Navigation - Desktop */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <Link
-              to="/"
-              className={`text-gray-800 hover:text-primary font-medium ${
-                isScrolled ? 'text-gray-800' : 'text-gray-800'
-              }`}
-            >
-              Home
-            </Link>
-            <Link
-              to="/services"
-              className="text-gray-800 hover:text-primary font-medium"
-            >
-              Services
-            </Link>
-            <Link
-              to="/about"
-              className="text-gray-800 hover:text-primary font-medium"
-            >
-              About
-            </Link>
-            <Link
-              to="/contact"
-              className="text-gray-800 hover:text-primary font-medium"
-            >
-              Contact
-            </Link>
+            {/* Call Button - Desktop */}
+            <div className="hidden md:flex items-center">
+              <a
+                href="tel:3073872378"
+                className="flex flex-row items-center group space-x-2"
+              >
+                <Button className="bg-yellow-500 hover:bg-yellow-600 text-white rounded-md mb-1">
+                  CALL TODAY
+                </Button>
+                <div className="flex items-center text-sm text-gray-700">
+                  <Phone size={16} className="mr-1" />
+                  <span>
+                    307-3 <span className="font-bold">VR BEST</span>
+                  </span>
+                </div>
+              </a>
+            </div>
           </nav>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <a href="tel:3073872378" className="mr-4 flex items-center">
-              <Phone size={20} className="text-primary" />
+              <Phone size={20} className="text-yellow-500" />
             </a>
             <button
               onClick={toggleMenu}
@@ -130,32 +130,32 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pt-4 border-t border-gray-200 animate-fade">
+          <div className="md:hidden mt-4 pt-4 border-t border-gray-200 animate-fade bg-white/40 backdrop-blur-sm">
             <div className="flex flex-col space-y-4 pb-4">
               <Link
                 to="/"
-                className="text-gray-800 hover:text-primary"
+                className="text-gray-800 hover:text-yellow-500"
                 onClick={toggleMenu}
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="text-gray-800 hover:text-primary"
+                className="text-gray-800 hover:text-yellow-500"
                 onClick={toggleMenu}
               >
                 Services
               </Link>
               <Link
                 to="/about"
-                className="text-gray-800 hover:text-primary"
+                className="text-gray-800 hover:text-yellow-500"
                 onClick={toggleMenu}
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="text-gray-800 hover:text-primary"
+                className="text-gray-800 hover:text-yellow-500"
                 onClick={toggleMenu}
               >
                 Contact
@@ -164,7 +164,7 @@ const Navbar = () => {
               {/* Call Button - Mobile */}
               <div className="pt-2">
                 <a href="tel:3073872378" className="flex flex-col">
-                  <Button className="bg-primary hover:bg-primary/90 text-white rounded-md w-full mb-1">
+                  <Button className="bg-yellow-500 hover:bg-yellow-600 text-white rounded-md w-full mb-1">
                     CALL TODAY
                   </Button>
                   <div className="flex items-center justify-center text-sm text-gray-700 mt-1">
