@@ -54,7 +54,7 @@ const Navbar = () => {
               <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm rounded-md mb-1 px-4 py-2">
                 CALL TODAY
               </Button>
-              <div className="flex items-center text-sm text-black-700 hover:bg-gray-200 hover:rounded-xl">
+              <div className="flex items-center text-sm text-black-700 hover:bg-gray-200 hover:rounded-2xl">
                 <Phone size={16} className="mr-1" />
                 <span className="font-bold">
                   307-3 <span className="font-bold">VR BEST</span>
