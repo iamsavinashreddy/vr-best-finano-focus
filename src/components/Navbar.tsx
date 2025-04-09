@@ -45,58 +45,56 @@ const Navbar = () => {
             />
           </Link>
 
-          {/* Navigation */}
-          <nav className="flex items-center space-x-8">
-            <div className="hidden md:flex items-center space-x-8">
-              <Link
-                to="/"
-                className="text-gray-800 hover:text-yellow-500 font-medium"
-              >
-                Home
-              </Link>
-              <Link
-                to="/services"
-                className="text-gray-800 hover:text-yellow-500 font-medium"
-              >
-                Services
-              </Link>
-              <Link
-                to="/about"
-                className="text-gray-800 hover:text-yellow-500 font-medium"
-              >
-                About
-              </Link>
-              <Link
-                to="/contact"
-                className="text-gray-800 hover:text-yellow-500 font-medium"
-              >
-                Contact
-              </Link>
-            </div>
+          {/* Call Button - Desktop */}
+          <div className="hidden md:flex items-center">
+            <a
+              href="tel:3073872378"
+              className="flex flex-row items-center group space-x-2"
+            >
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-md mb-1">
+                CALL TODAY
+              </Button>
+              <div className="flex items-center text-sm text-gray-700">
+                <Phone size={16} className="mr-1" />
+                <span>
+                  307-3 <span className="font-bold">VR BEST</span>
+                </span>
+              </div>
+            </a>
+          </div>
 
-            {/* Call Button - Desktop */}
-            <div className="hidden md:flex items-center">
-              <a
-                href="tel:3073872378"
-                className="flex flex-row items-center group space-x-2"
-              >
-                <Button className="bg-yellow-500 hover:bg-yellow-600 text-white rounded-md mb-1">
-                  CALL TODAY
-                </Button>
-                <div className="flex items-center text-sm text-gray-700">
-                  <Phone size={16} className="mr-1" />
-                  <span>
-                    307-3 <span className="font-bold">VR BEST</span>
-                  </span>
-                </div>
-              </a>
-            </div>
+          {/* Navigation - Desktop */}
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link
+              to="/"
+              className="text-gray-800 hover:text-blue-500 font-medium"
+            >
+              Home
+            </Link>
+            <Link
+              to="/services"
+              className="text-gray-800 hover:text-blue-500 font-medium"
+            >
+              Services
+            </Link>
+            <Link
+              to="/about"
+              className="text-gray-800 hover:text-blue-500 font-medium"
+            >
+              About
+            </Link>
+            <Link
+              to="/contact"
+              className="text-gray-800 hover:text-blue-500 font-medium"
+            >
+              Contact
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <a href="tel:3073872378" className="mr-4 flex items-center">
-              <Phone size={20} className="text-yellow-500" />
+              <Phone size={20} className="text-blue-500" />
             </a>
             <button
               onClick={toggleMenu}
@@ -134,28 +132,28 @@ const Navbar = () => {
             <div className="flex flex-col space-y-4 pb-4">
               <Link
                 to="/"
-                className="text-gray-800 hover:text-yellow-500"
+                className="text-gray-800 hover:text-blue-500"
                 onClick={toggleMenu}
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="text-gray-800 hover:text-yellow-500"
+                className="text-gray-800 hover:text-blue-500"
                 onClick={toggleMenu}
               >
                 Services
               </Link>
               <Link
                 to="/about"
-                className="text-gray-800 hover:text-yellow-500"
+                className="text-gray-800 hover:text-blue-500"
                 onClick={toggleMenu}
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="text-gray-800 hover:text-yellow-500"
+                className="text-gray-800 hover:text-blue-500"
                 onClick={toggleMenu}
               >
                 Contact
@@ -164,7 +162,7 @@ const Navbar = () => {
               {/* Call Button - Mobile */}
               <div className="pt-2">
                 <a href="tel:3073872378" className="flex flex-col">
-                  <Button className="bg-yellow-500 hover:bg-yellow-600 text-white rounded-md w-full mb-1">
+                  <Button className="bg-blue-500 hover:bg-blue-600 text-white rounded-md w-full mb-1">
                     CALL TODAY
                   </Button>
                   <div className="flex items-center justify-center text-sm text-gray-700 mt-1">
