@@ -31,7 +31,7 @@ const Navbar = () => {
           
           {/* Call Button - Desktop */}
           <div className="hidden md:flex items-center">
-            <a href="tel:3073872378" className="flex flex-col items-center group">
+            <a href="tel:3073872378" className="flex flex-row items-center group space-x-2">
               <Button className="bg-primary hover:bg-primary/90 text-white rounded-md mb-1">
                 CALL TODAY
               </Button>
