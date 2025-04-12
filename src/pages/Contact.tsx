@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Phone</h3>
                 <p className="text-gray-700 mb-2">Call us directly:</p>
-                <a href="tel:3073872378" className="text-primary font-medium">307-387-2378</a>
+                <a href="tel:3073872378" className="text-primary font-medium">‪(616) 287-2378‬</a>
               </div>
               
               <div className="text-center p-6 border border-gray-200 rounded-lg">
