@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Call Button - Desktop */}
           <div className="hidden md:flex items-center">
             <a
-              href="tel:3073872378"
+              href="tel:‪+16162872378‬"
               className="flex flex-row items-center group space-x-2"
             >
               <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm rounded-md mb-1 px-4 py-2">
@@ -57,7 +57,7 @@ const Navbar = () => {
               <div className="flex items-center text-sm text-black-700 hover:bg-gray-200 hover:rounded-2xl">
                 <Phone size={16} className="mr-1" />
                 <span className="font-bold">
-                  307-3 <span className="font-bold">VR BEST</span>
+                  616-2 <span className="font-bold">VR BEST</span>
                 </span>
               </div>
             </a>
